@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import LocomotiveScroll from 'locomotive-scroll';
+import Tools from './components/Tools';
 
 // Scroll to section when the hash changes
 const ScrollToSection = () => {
@@ -43,6 +44,7 @@ const App = () => {
               <section id="about">
                 <AboutMe />
               </section>
+              <Tools/>
               <section id="projects">
                 <Projects />
               </section>
